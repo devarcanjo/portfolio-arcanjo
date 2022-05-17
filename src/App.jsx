@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
+    <React.Fragment>
       <Header />
       <Nav />
       <About />
@@ -18,7 +18,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </React.Fragment>
   )
 }
 

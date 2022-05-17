@@ -2,9 +2,8 @@ import React from 'react'
 import './style.css'
 
 const About = () => {
-  const about = 'about'
   return (
-    <div>{about}</div>
+    <section id="about">About</section>
   )
 }
 
